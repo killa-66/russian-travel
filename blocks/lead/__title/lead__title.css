@@ -1,0 +1,37 @@
+.lead__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto 0;
+    max-width: 720px;
+    max-height: 200px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .lead__title {
+        margin: 0 auto 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead__title {
+        margin: 0 auto 0;
+    }
+}
+@media screen and (max-width: 675px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        margin: 0 18px 0 14px;
+    }
+}
