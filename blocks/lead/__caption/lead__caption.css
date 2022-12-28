@@ -10,3 +10,15 @@
     margin-top: 8px;
     margin-bottom: 0;
 }
+
+@media (max-width: 768px) {
+    .lead__caption {
+        margin-left: 24px;
+    }
+}
+
+@media (max-width: 570px) {
+    .lead__caption {
+        margin-left: 18px;
+    }
+}

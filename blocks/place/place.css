@@ -26,11 +26,11 @@
     }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 670px) {
     .place {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, minmax(min-content, max-content));
-        margin-bottom: 50px;
+        grid-template-rows: repeat(5, minmax(min-content, max-content));    /* Я не знаю, верно ли так менять страницу, но с дизайнером поговорить увы не могу, поэтому принял такое решение  */
+        margin-bottom: 18px;
         row-gap: 32px;
     }
 }
