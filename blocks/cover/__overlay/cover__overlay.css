@@ -1,8 +1,31 @@
 .cover__overlay {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    background: rgb(42, 44, 47, 0.3);
+    padding: 245px 312px;
+}
+
+.cover__overlay:hover {
+    background: rgb(42, 44, 47, 0.8);
+}
+
+@media (max-width: 1024px) {
+    .cover__overlay {
+        padding: 195px 232px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover__overlay {
+        padding: 115px 104px;
+    }
+}
+
+@media (max-width: 570px) {
+    .cover__overlay {
+        padding: 33px 16px;
+    }
 }

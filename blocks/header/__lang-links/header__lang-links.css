@@ -3,9 +3,12 @@
     justify-content: space-between;
     margin-top: 18px;
     margin-bottom: 6px;
+    column-gap: 18px;
+    list-style: none;
+    padding: 0;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 570px) {
     .header__lang-links {
         margin-top: 14px;
         margin-bottom: 8px;

@@ -1,14 +1,9 @@
 .cover {
-    position: relative;
-    display: flex;
-    flex-direction: column;
     margin: 92px 48px 0;
-    align-items: center;
-    justify-content: center;
     min-height: 740px;
-}
-.cover:hover .cover__background{
-    opacity: 0.3;
+    background-image: url(../../images/cover-trains.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 @media (max-width: 1024px) {
@@ -24,7 +19,7 @@
         min-height: 480px;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 570px) {
     .cover {
         min-height: 200px;
         margin-top: 66px;

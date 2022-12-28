@@ -5,9 +5,10 @@
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
-    white-space: pre-line;
+    list-style-type: none;
+    padding: 0;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 570px) {
     .intro__list {
         margin-top: 34px;
     }

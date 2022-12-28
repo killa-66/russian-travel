@@ -15,15 +15,12 @@
 @media (max-width: 768px) {
     .place__text {
         font-size: 16px;
-        line-height: 163%;
         max-width: 352px;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 570px) {
     .place__text {
         margin: 0 16px 0;
-        font-size: 16px;
-        line-height: 163%;
     }
 }
