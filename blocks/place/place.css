@@ -29,8 +29,8 @@
 @media (max-width: 670px) {
     .place {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, minmax(min-content, max-content));    /* Я не знаю, верно ли так менять страницу, но с дизайнером поговорить увы не могу, поэтому принял такое решение  */
-        margin-bottom: 18px;
+        grid-template-rows: repeat(4, minmax(min-content, max-content));    /* Я не знаю, верно ли так менять страницу, но с дизайнером поговорить увы не могу, поэтому принял такое решение  */
+        margin-bottom: 50px;
         row-gap: 32px;
     }
 }
